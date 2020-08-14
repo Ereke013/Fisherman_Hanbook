@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Настройки текста">
+
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="Средний"
+        android:entries="@array/text_size"
+        android:entryValues="@array/text_size"
+        android:key="main_text_size"
+        android:title="@string/main_text_size_array" />
+    <ListPreference
+        android:defaultValue="Anton-Regular"
+        android:entries="@array/text_font"
+        android:entryValues="@array/text_font"
+        android:key="main_text_font"
+        android:title="Шрифт текста" />
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_fish"
+            android:icon="@drawable/ic_whatshot_black_24dp"
+            android:title="@string/fish" />
+        <item
+            android:id="@+id/id_na"
+            android:icon="@drawable/ic_nazh_24dp"
+            android:title="@string/naj" />
+        <item
+            android:id="@+id/id_sna"
+            android:icon="@drawable/ic_snasti_24dp"
+            android:title="@string/sna" />
+        <item
+            android:id="@+id/id_pri"
+            android:icon="@drawable/ic_prikorm_24dp"
+            android:title="@string/prikormka" />
+    </group>
+
+    <item android:title="Разное">
+        <menu>
+            <item
+                android:id="@+id/id_history"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/history" />
+            <item
+                android:id="@+id/id_advice"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/advice" />
+        </menu>
+    </item>
+
+</menu>
